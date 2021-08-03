@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_narrow_v">20dp</dimen>
+    <dimen name="padding_v">40dp</dimen>
+    <dimen name="padding_large_v">60dp</dimen>
+    <dimen name="padding_narrow_h">15dp</dimen>
+    <dimen name="padding_h">60dp</dimen>
+    <dimen name="padding_large_h">90dp</dimen>
+
+    <dimen name="body_font_size_normal">20sp</dimen>
+    <dimen name="body_font_size_large">22sp</dimen>
+    <dimen name="header_font_size_normal">22sp</dimen>
+    <dimen name="header_font_size_large">28sp</dimen>
+
+    <dimen name="ol_margin">8dp</dimen>
+</resources>

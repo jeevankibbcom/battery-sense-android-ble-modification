@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/background"
+              android:orientation="vertical">
+
+    <include layout="@layout/action_bar_device_edit"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_h"
+        android:paddingTop="@dimen/padding_8"
+        android:paddingEnd="@dimen/padding_h"
+        android:paddingBottom="@dimen/ol_margin">
+
+        <com.ctek.sba.widget.font.CtekTextView
+            android:id="@+id/sender_id_textview"
+            style="@style/Ctek.TextView.ForzaBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/padding_8"
+            android:text="@string/edit_photo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body_font_size_normal" />
+
+        <com.ctek.sba.widget.font.CtekEditText
+            android:id="@+id/device_name"
+            style="@style/Ctek.TextView.EditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/name_placeholder"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/placeholder" />
+
+    </LinearLayout>
+
+    <com.ctek.sba.widget.font.CtekTextView
+        android:id="@+id/tv_change_battery_capacity"
+        style="@style/Ctek.TextView.ForzaBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Click to change battery capacity"
+        android:padding="5sp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:textSize="@dimen/body_font_size_normal" />
+
+    <com.ctek.sba.widget.font.CtekTextView
+        android:id="@+id/battery_capacity"
+        style="@style/big_bottom_button"
+        android:layout_marginBottom="@dimen/padding_v"
+        android:onClick="onBatteryButtonClick"
+        android:text="@string/capacity_is_NNN" />
+
+    <ImageView
+        android:id="@+id/device_photo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="@dimen/padding_h"
+        android:layout_marginEnd="@dimen/padding_h"
+        android:layout_marginBottom="@dimen/padding_v"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_menu_camera"/>
+
+
+    <com.ctek.sba.widget.font.CtekTextView
+        android:id="@+id/edit_photo"
+        style="@style/Ctek.TextView.ForzaBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/padding_large_v"
+        android:text="@string/edit_photo"
+        android:textColor="@color/white"
+        android:textSize="@dimen/body_font_size_normal" />
+
+    <com.ctek.sba.widget.font.CtekTextView
+        android:id="@+id/bottom_button"
+        android:text="@string/finish"
+        style="@style/big_bottom_button"
+        android:onClick="onBottomButtonClick"
+        />
+</LinearLayout>

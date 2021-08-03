@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/action_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_default_height"
+    android:minHeight="@dimen/abc_action_bar_default_height_material"
+    app:contentInsetEnd="0dp"
+    app:contentInsetStart="0dp">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent"
+                 android:background="@color/background">
+
+        <include layout="@layout/component_back_button" />
+
+        <include layout="@layout/component_ctek_logo_action_bar"/>
+    </FrameLayout>
+</android.support.v7.widget.Toolbar>

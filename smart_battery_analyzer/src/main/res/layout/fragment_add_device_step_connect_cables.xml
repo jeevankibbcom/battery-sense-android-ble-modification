@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/component_ctek_logo" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="0dp"
+        android:paddingStart="@dimen/padding_h">
+
+        <com.ctek.sba.widget.font.CtekTextView
+            style="@style/Ctek.TextView.ForzaBookItalic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/padding_narrow_h"
+            android:paddingStart="0dp"
+            android:text="@string/add_device_connect_cables_text1"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_font_size_normal"/>
+
+        <include layout="@layout/component_top_line" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/padding_h"
+        android:paddingStart="@dimen/padding_h"
+        android:paddingTop="@dimen/padding_v">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBookItalic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/ol_margin"
+                android:paddingStart="0dp"
+                android:text="@string/ol_prefix_1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_normal"/>
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBookItalic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_device_connect_cables_text2A"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_narrow_v">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBookItalic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/ol_margin"
+                android:paddingStart="0dp"
+                android:text="@string/ol_prefix_2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_normal"/>
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBookItalic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_device_connect_cables_text2B"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_narrow_v">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBookItalic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/ol_margin"
+                android:paddingStart="0dp"
+                android:text="@string/ol_prefix_3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_normal"/>
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBookItalic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/add_device_connect_cables_text2C"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_normal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:paddingStart="@dimen/padding_h"
+        android:paddingEnd="@dimen/padding_h"
+        android:paddingTop="@dimen/padding_narrow_v"
+        android:paddingBottom="@dimen/padding_narrow_v"
+        android:src="@drawable/battery_connect"/>
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Battery Sense</string>
+
+    <string name="edit">Bearbeiten</string>
+    <string name="finish">Fertigstellen</string>
+    <string name="delete">Entfernen</string>
+
+    <string name="show_details">Einzelheiten anzeigen</string>
+
+    <string name="ble_not_supported">BLE is not supported on this device</string>
+    <string name="setup_new">Neuer Sender</string>
+
+    <string name="app_version">App-Version</string>
+    <string name="soc_version">SoC-Version</string>
+    <string name="pref_view_settings">EINSTELLUNGEN ANZEIGEN</string>
+    <string name="pref_list_view_checkbox">Geräte auflisten</string>
+    <string name="pref_notifications">HINWEISE</string>
+    <string name="pref_notifications_data">Benachrichtigen, wenn seit 7 Tagen keine Daten mehr vorhanden sind</string>
+    <string name="pref_notifications_status">Benachrichtigen, wenn sich der Batteriestatus ändert</string>
+    <string name="pref_background_updates">Hintergrund Update</string>
+
+    <string name="delete_sender">Sender entfernen</string>
+    <string name="edit_photo">Zum Ändern des Bildes klicken</string>
+    <string name="take_from_camera">Kamera</string>
+    <string name="select_from_gallery">Bildbibliothek</string>
+    <string name="add_device_introduction_text1A">VERFOLGEN SIE</string>
+    <string name="add_device_introduction_text1B">IHREN BATTERIESTATUS</string>
+    <string name="add_device_introduction_text2">DIESE ANLEITUNG ZEIGT, WIE DIE VERBINDUNG MIT DEM SENDER ERFOLGT</string>
+    <string name="add_device_find_device_id_text1">SENDERKENNUNG FINDEN</string>
+    <string name="add_device_find_device_id_text2">Die Senderkennung ist ein Code mit elf Zeichen. Diese steht auf dem Sender und auf der Verpackung.</string>
+    <string name="add_device_connect_cables_text1">SENDER EINBAUEN</string>
+    <string name="add_device_connect_cables_text2A">Roten Anschluss am positiven Pol der Batterie anbringen.</string>
+    <string name="add_device_connect_cables_text2B">Schwarzen Anschluss am negativen Pol anbringen.</string>
+    <string name="add_device_connect_cables_text2C">Sender gemäß Quick Guide befestigen.</string>
+    <string name="add_device_lost_code_text1">SENDER TRENNEN</string>
+    <string name="add_device_lost_code_text2A">Roten Anschluss 30 Sekunden lang vom positiven Pol der Batterie trennen.</string>
+    <string name="add_device_lost_code_text2B">Roten Anschluss wieder am positiven Pol der Batterie anbringen.</string>
+    <string name="sender_id_success">Dies ist die Senderkennung. Bitte notieren und aufbewahren.</string>
+    <string name="add_device_code_text1">SENDER VERBINDEN</string>
+    <string name="add_device_code_text2">Sich so nahe wie möglich an den Sender begeben, mit dem die Verbindung erfolgen soll.</string>
+    <string name="add_device_code_text3">Senderkennung eingeben</string>
+
+    <string name="add_device_lost_code">Senderkennung verloren?</string>
+    <string name="start_search">Suche starten</string>
+    <string name="last_sync">Letztes Update</string>
+    <string name="add_photo">Zum Hinzufügen eines Bildes klicken\n(optional)</string>
+    <string name="searching_for_sender">Sender suchen</string>
+    <string name="connecting">Anschluss am Sender</string>
+    <string name="connect">Verbinden</string>
+    <string name="error_name_empty">Give your Sender a name</string>
+    <string name="ol_prefix_1">1.</string>
+    <string name="ol_prefix_2">2.</string>
+    <string name="ol_prefix_3">3.</string>
+    <string name="confirm_delete_title">Entfernen</string>
+    <string name="confirm_delete_message">Diesen Sender entfernen?</string>
+
+    <string name="battery_legend_red">Jetzt laden</string>
+    <string name="battery_legend_amber">Bald laden</string>
+    <string name="battery_legend_green">Batterie OK</string>
+
+    <string name="notification_title">Hinweis!</string>
+    <string name="notification_message">Seit 7 Tagen unbekannter Batteriestatus</string>
+    <string name="warning_title">Warnung!</string>
+    <string name="reminder_title">Erinnerung!</string>
+    <string name="reminder_message">Bald laden</string>
+    <string name="updating_sender">Wird aktualisiert</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="detail_view">Detailansicht</string>
+    <string name="overview">Übersicht</string>
+    <string name="name_placeholder">Fahrzeugnamen eingeben</string>
+    <string name="no_device_found_lost_code_title">Kein Sender gefunden</string>
+    <string name="no_device_found_lost_code_message">Es wurde kein neu montierter Sender gefunden. Ausreichende Nähe zum neu montierten Sender prüfen, dann Folgendes prüfen: Es darf kein anderes Smartphone mit dem Sender gekoppelt sein. Alle anderen Bluetooth-Apps schließen.</string>
+    <string name="no_device_found">Kein Sender gefunden</string>
+    <string name="failed_to_connect">Verbindung wurde nicht hergestellt</string>
+    <string name="failed_to_connect_message">Die Verbindung konnte nicht hergestellt werden. Sicherstellen, dass die Senderkennung stimmt. Bei zu großer Entfernung näher an den Sender herangehen.</string>
+    <string name="not_found_recoverable_device">Kein Sender gefunden. Ausreichende Nähe zum Sender prüfen, dann Folgendes prüfen: Es darf kein anderes Smartphone mit dem Sender gekoppelt sein. Alle anderen Bluetooth-Apps schließen.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_appears_to_be_turned_off">Bluetooth-Dienste werden mitunter abgeschaltet. Zum Verbinden bitte einschalten.</string>
+    <string name="add_image">Bild hinzufügen</string>
+    <string name="choose_image_source">Eine Bildquelle auswählen</string>
+    <string name="warning_message_12h">Jetzt laden</string>
+    <string name="warning_message">Jetzt laden</string>
+    <string name="reminder_message_24h">Bald laden</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_voltage_checkbox">Spannung und Temperatur anzeigen</string>
+    <string name="capacity_is_NNN">Batteriekapazität NNNAh.</string>
+    <string name="capacity_small">Klein (15Ah)</string>
+    <string name="capacity_normal">Normal (75Ah)</string>
+    <string name="select_capacity">Batteriekapazität auswählen</string>
+    <string name="pref_select_t_unit">Temperatur in</string>
+
+    <!-- CTEKUpdateService notification strings. -->
+    <string name="update_service_is_running">Aktualisierung läuft</string>
+
+    <!-- Already connected. -->
+    <string name="information">Information</string>
+    <string name="sender_already_connected">Sender bereits verbunden</string>
+
+    <!-- New strings. Mar-2018. CBS-174 -->
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nein</string>
+    <string name="data_collection_header">Datenerfassung</string>
+    <string name="data_collection_text">Unsere Unternehmensleidenschaft ist das Laden und Pflegen von Batterien und wir möchten, dass unsere Kunden mehr als zufrieden sind. Desshalb möchten wir darüber mehr erfahren, wie unsere Produkte in der Praxis tatsächlich eingesetzt werden.\n\nDaher würden wir gerne – selbstverständlich anonym – einige Nutzungsdaten Ihres CTEK Battery Sense erfassen.\n\n__LINK_POLICY__Sie können natürlich die Dateneingaben jederzeit über die Einstellungsseite der Battery Sense-App wieder löschen.\n\n__LINK_TERMS__</string>
+    <string name="data_collection_policy">Bitte lesen Sie  hier, durch das Anklicken, unsere vollständige Datenschutzrichtlinie an</string>
+    <string name="data_collection_terms">Bitte lesen und genehmigen Sie unsere Nutzungsbedingungen, bevor Sie den Service nutzen</string>
+    <string name="data_collection_checkbox">Ich habe die Nutzungsbedingungen gelesen und verstanden </string>
+    <string name="data_collection_question">Würden Sie uns gestatten, diese Daten zu erfassen?</string>
+
+    <string name="pref_txt_data_collection">CTEK anonym Datezn erfassen lassen</string>
+    <string name="pref_txt_privacy_policy">Datenschutzrichtlinie</string>
+    <string name="pref_txt_terms_conditions">Geschäftsbedingungen</string>
+    <string name="back">Zurück</string>
+    <string name="bt_connected">Bluetooth verbunden</string>
+    <string name="bt_disconnected">Bluetooth getrennt</string>
+    <string name="btn_reconnect">Erneut verbinden</string>
+    <string name="changes_save_success">Änderungen erfolgreich gespeichert</string>
+    <string name="conn_timeout">Verbindungszeitüberschreitung</string>
+    <string name="disconnected_live_mode">Getrennt</string>
+    <string name="if_paired_unpair">Wenn das CTEK-Gerät bereits gekoppelt ist, sollte der Benutzer es von der verfügbaren Bluetooth-Liste trennen</string>
+    <string name="not_connected">Nicht verbunden</string>
+    <string name="save">Speichern</string>
+    <string name="alert">Achtung</string>
+    <string name="connecting_live_mode">Verbinden</string>
+    <string name="connected_live_mode">Verbunden</string>
+    <string name="live_mode">Live-Modus</string>
+    <string name="conn_sender">Gerät verbinden</string>
+    <string name="be_close_connecting">Seien Sie so nah wie möglich an dem Gerät, welches Sie verbinden wollen</string>
+    <string name="check_no_other_device_connected">Stellen Sie sicher, dass kein anderes Gerät mit dem CTEK Produkt verbunden ist</string>
+    <string name="properly_connected">Stellen Sie sicher, dass Ihr CTEK-Produkt ordnungsgemäß an der Batterie angeschlossen ist</string>
+
+    <string name="searching">Suchen...</string>
+
+</resources>

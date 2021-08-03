@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Battery Sense</string>
+
+    <string name="edit">Muokkaa</string>
+    <string name="finish">Lopeta</string>
+    <string name="delete">Poista</string>
+
+    <string name="show_details">Näytä tiedot</string>
+
+    <string name="ble_not_supported">BLE is not supported on this device</string>
+    <string name="setup_new">Uusi lähetin</string>
+
+    <string name="app_version">Sovellusversio</string>
+    <string name="soc_version">SoC-versio</string>
+    <string name="pref_view_settings">NÄYTÄ ASETUKSET</string>
+    <string name="pref_list_view_checkbox">Näytä laitteet luettelonäkymässä</string>
+    <string name="pref_notifications">ILMOITUKSET</string>
+    <string name="pref_notifications_data">Ilmoita jos tietoja ei ole kerätty 7 päivään</string>
+    <string name="pref_notifications_status">Ilmoita akun tilan muuttuessa.</string>
+    <string name="pref_background_updates">Taustapäivitykset</string>
+    <string name="delete_sender">Poista lähetin</string>
+    <string name="edit_photo">Vaihda kuvaa napsauttamalla</string>
+    <string name="take_from_camera">Kamera</string>
+    <string name="select_from_gallery">Kuvakirjasto</string>
+    <string name="add_device_introduction_text1A">AKUN TILAN</string>
+    <string name="add_device_introduction_text1B">SEURANTA</string>
+    <string name="add_device_introduction_text2">TÄMÄ OPAS AUTTAA SINUA YHDISTÄMÄÄN LÄHETTIMESI</string>
+    <string name="add_device_find_device_id_text1">LÖYDÄ LÄHETTIMEN TUNNUS</string>
+    <string name="add_device_find_device_id_text2">Lähettimen tunnus on yhdestätoista merkistä koostuva koodi. Tunnus on merkitty sekä lähettimeen että tuotepakkaukseen.</string>
+    <string name="add_device_connect_cables_text1">LÄHETTIMEN ASENTAMINEN</string>
+    <string name="add_device_connect_cables_text2A">Asenna musta liitin akun negatiiviseen napaan</string>
+    <string name="add_device_connect_cables_text2B">Asenna punainen liitin akun positiiviseen napaan</string>
+    <string name="add_device_connect_cables_text2C">Kiinnitä lähetin pikaoppaan ohjeita noudattaen</string>
+    <string name="add_device_lost_code_text1">LÄHETTIMEN YHTEYDEN KATKAISEMINEN</string>
+    <string name="add_device_lost_code_text2A">Irrota punainen liitin akun positiivisesta navasta 30 sekunnin ajaksi.</string>
+    <string name="add_device_lost_code_text2B">Liitä punainen liitin uudellen akun positiiviseen napaan.</string>
+    <string name="sender_id_success">Tämä on lähettimen tunnus. Kirjoita se ylös ja tallenna se.</string>
+    <string name="add_device_code_text1">YHDISTÄ LÄHETIN</string>
+    <string name="add_device_code_text2">Siirry mahdollisimman lähelle yhdistettävää lähetintä</string>
+    <string name="add_device_code_text3">Syötä lähettimen ztunnus</string>
+
+    <string name="add_device_lost_code">Oletko hukannut lähettimen tunnuksen?</string>
+    <string name="start_search">Aloita haku</string>
+    <string name="last_sync">Päivitetty viimeksi</string>
+    <string name="add_photo">Lisää kuva napsauttamalla\n(valinnainen)</string>
+    <string name="searching_for_sender">Hakee lähetintä</string>
+    <string name="connecting">Yhdistää lähettimeen</string>
+    <string name="connect">YHDISTÄÄ LÄHETTIMEEN</string>
+    <string name="error_name_empty">Give your Sender a name</string>
+    <string name="ol_prefix_1">1.</string>
+    <string name="ol_prefix_2">2.</string>
+    <string name="ol_prefix_3">3.</string>
+    <string name="confirm_delete_title">Poista</string>
+    <string name="confirm_delete_message">Haluatko poistaa tämän lähettimen?</string>
+
+    <string name="battery_legend_red">Lataa nyt</string>
+    <string name="battery_legend_amber">Lataa pian</string>
+    <string name="battery_legend_green">Akku OK</string>
+
+    <string name="notification_title">Ilmoitus!</string>
+    <string name="notification_message">Akun tilaa ei tunneta viimeisen 7 päivän ajalta</string>
+    <string name="warning_title">Varoitus!</string>
+    <string name="reminder_title">Ilmoitus:</string>
+    <string name="reminder_message">Lataa pian</string>
+    <string name="updating_sender">Päivitetään</string>
+    <string name="cancel">Peruuta</string>
+    <string name="ok">OK</string>
+    <string name="detail_view">Tietonäyttö</string>
+    <string name="overview">Yleistiedot</string>
+    <string name="name_placeholder">Nimeä ajoneuvosi</string>
+    <string name="no_device_found_lost_code_title">Lähetintä ei löytynyt</string>
+    <string name="no_device_found_lost_code_message">Vasta asennettua lähetintä ei löytynyt. Jos olet vasta asennetun lähettimen lähellä, toimi seuraavasti: Varmista, että mitään muuta puhelinta ei ole liitetty lähettimeen. Sulje kaikki muut Bluetooth-yhteyttä käyttävät sovellukset.</string>
+    <string name="no_device_found">Lähetintä ei löytynyt</string>
+    <string name="failed_to_connect">Yhteys ei onnistunut</string>
+    <string name="failed_to_connect_message">Yhteys epäonnistui. Varmista, että lähettimen tunnus on virheetön ja siirry lähemmäs, jos olet kaukana lähettimestä.</string>
+    <string name="not_found_recoverable_device">Lähetintä ei löytynyt. Jos olet asennetun lähettimen lähellä, toimi seuraavasti: Varmista, että mitään muuta puhelinta ei ole liitetty lähettimeen. Sulje kaikki muut Bluetooth-yhteyttä käyttävät sovellukset.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_appears_to_be_turned_off">Bluetooth-palvelut on kytketty pois käytöstä. Yhdistäminen edellyttää, että ne otetaan käyttöön.</string>
+    <string name="add_image">Lisää kuva</string>
+    <string name="choose_image_source">Valitse kuvalähde</string>
+    <string name="warning_message_12h">Lataa nyt</string>
+    <string name="warning_message">Lataa nyt</string>
+    <string name="reminder_message_24h">Lataa pian</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_voltage_checkbox">Näytä jännite ja lämpötila</string>
+    <string name="capacity_is_NNN">Akun kapasiteetti NNNAh.</string>
+    <string name="capacity_small">Pieni (15Ah)</string>
+    <string name="capacity_normal">Normaali (75Ah)</string>
+    <string name="select_capacity">Valitse akun kapasiteetti</string>
+    <string name="pref_select_t_unit">Lämpötila yksikössä</string>
+
+    <!-- CTEKUpdateService notification strings. -->
+    <string name="update_service_is_running">Päivityspalvelu käynnissä</string>
+
+    <!-- Already connected. -->
+    <string name="information">Tietoja</string>
+    <string name="sender_already_connected">Lähetin on jo yhdistetty</string>
+
+    <!-- New strings. Mar-2018. CBS-174 -->
+    <string name="button_yes">Kyllä</string>
+    <string name="button_no">Ei</string>
+    <string name="data_collection_header">Tiedonkeruu</string>
+    <string name="data_collection_text">Akkujen lataaminen ja ylläpito on meille intohimo. Jotta voisimme täyttää asiakkaidemme tarpeet myös tulevaisuudessa, haluaisimme jatkuvasti tietoja siitä, miten tuotteitamme käytetään.\n\nTämän takia haluaisimme kerätä anonyymisti käsiteltäviä tietoja siitä, miten käytät CTEK Battery Sense ‑laitettasi.\n\n__LINK_POLICY__Voit lopettaa tietojesi jakamisen Battery Sense ‑sovelluksen asetussivulla.\n\n__LINK_TERMS__</string>
+    <string name="data_collection_policy">Voit lukea täyden yksityisyydensuojakäytäntömme napsauttamalla tätä</string>
+    <string name="data_collection_terms">Lue ja hyväksy käyttöehdot ennen palvelun käyttöä</string>
+    <string name="data_collection_checkbox">Olen lukenut ja ymmärtänyt ehdot</string>
+    <string name="data_collection_question">Annatko meille luvan tällaisten tietojen keräämiseen?</string>
+
+    <string name="pref_txt_data_collection">Jaa tiedot nimettömänä CTEKille</string>
+    <string name="pref_txt_privacy_policy">Yksityisyydensuojakäytäntö</string>
+    <string name="pref_txt_terms_conditions">Käyttöehdot</string>
+    <string name="back">Takaisin</string>
+    <string name="changes_save_success">Muutokset tallennettiin onnistuneesti</string>
+    <string name="check_no_other_device_connected">Varmista, että mitään muuta laitetta ei ole kytketty CTEK-laitteeseen</string>
+    <string name="conn_timeout">Yhteyden aikakatkaisu</string>
+    <string name="disconnected_live_mode">Yhteys katkaistu</string>
+    <string name="live_mode">Live-tila</string>
+    <string name="not_connected">Ei yhteyttä</string>
+    <string name="properly_connected">Varmista, että CTEK-laite on kytketty oikein akkuun</string>
+    <string name="save">Tallenna</string>
+    <string name="alert">Huomio</string>
+    <string name="connecting_live_mode">Yhdistää</string>
+    <string name="connected_live_mode">Yhdistetty</string>
+    <string name="bt_connected">Bluetooth yhdistetty</string>
+    <string name="bt_disconnected">Bluetooth ei yhdistetty</string>
+    <string name="conn_sender">Liitä lähetin</string>
+    <string name="be_close_connecting">Ole mahdollisimman lähellä yhdistettävää lähetintä</string>
+    <string name="if_paired_unpair">Jos CTEK-laite on jo paritettu, käyttäjän tulee purkaa paritus käytössä olevasta Bluetooth-luettelosta</string>
+    <string name="btn_reconnect">Yhdistä uudelleen</string>
+
+    <string name="searching">Tutkiva...</string>
+
+</resources>

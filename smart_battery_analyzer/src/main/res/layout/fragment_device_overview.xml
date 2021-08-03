@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          tools:context="com.ctek.sba.ui.DeviceListActivity">
+
+    <include layout="@layout/list_item_device" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/padding_h"
+            android:paddingEnd="@dimen/padding_h"
+            android:weightSum="1"
+            android:paddingBottom="@dimen/padding_v">
+            <com.ctek.sba.widget.font.CtekTextView
+                android:id="@+id/search_progress_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/Ctek.TextView.ForzaBook"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_normal"
+                android:text=""
+                android:layout_weight="0.87" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/device_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@android:drawable/ic_menu_report_image" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.ctek.sba.widget.font.CtekTextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    style="@style/Ctek.TextView.ForzaBook"
+    android:gravity="end|center_vertical"
+    android:textSize="@dimen/body_font_size_small"
+    android:paddingStart="0dp"
+    android:paddingEnd="@dimen/padding_narrow_h"
+    android:textColor="@color/white"
+    android:text="@string/save"
+    android:onClick="saveDetails"
+    android:layout_gravity="center_vertical|end"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/save_button"/>

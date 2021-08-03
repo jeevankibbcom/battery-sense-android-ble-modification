@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/component_ctek_logo" />
+
+        <RelativeLayout
+            android:id="@+id/connect_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="@color/background"
+            >
+
+            <com.ctek.sba.widget.font.CtekTextView
+                android:id="@+id/connect_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_alignParentBottom="true"
+                style="@style/big_bottom_button"
+                android:text="@string/connect"
+                />
+
+            <LinearLayout
+                android:id="@+id/tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:background="@color/background"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_above="@id/connect_button"
+                >
+
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="0dp"
+                android:paddingStart="@dimen/padding_h">
+
+                    <com.ctek.sba.widget.font.CtekTextView
+                        style="@style/Ctek.TextView.ForzaBookItalic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/padding_narrow_h"
+                        android:paddingStart="0dp"
+                        android:text="@string/add_device_code_text1"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/header_font_size_normal"/>
+
+                    <include layout="@layout/component_top_line" />
+                </LinearLayout>
+
+                <com.ctek.sba.widget.font.CtekTextView
+                    style="@style/Ctek.TextView.ForzaBookItalic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/padding_h"
+                    android:paddingStart="@dimen/padding_h"
+                    android:paddingTop="@dimen/padding_v"
+                    android:text="@string/add_device_code_text2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/body_font_size_normal" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="@dimen/padding_h"
+                    android:layout_marginStart="@dimen/padding_h"
+                    android:maxWidth="320dp"
+                    android:minWidth="280dp"
+
+                    >
+
+                    <com.ctek.sba.widget.font.CtekTextView
+                        style="@style/Ctek.TextView.ForzaBook"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="@dimen/padding_large_v"
+                        android:text="@string/add_device_code_text3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/body_font_size_normal"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/device_code_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/padding_h"
+                    android:layout_marginStart="@dimen/padding_h"
+                    android:layout_marginTop="@dimen/padding_narrow_v"
+                    android:paddingTop="@dimen/padding_narrow_v"
+                    android:paddingBottom="@dimen/padding_narrow_v"
+                    android:maxWidth="320dp"
+                    android:minWidth="280dp"
+                    android:background="@drawable/device_id_input"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:inputType="textCapCharacters|textNoSuggestions"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:hint="@string/add_device_code_placeholder"
+                    android:textColorHint="@color/placeholder"
+                    android:textSize="@dimen/header_font_size_large"
+                    android:typeface="monospace" />
+
+
+                <TextView
+                    style="@style/Ctek.TextView.ForzaBook"
+                    android:id="@+id/tv_or"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Or"
+                    android:textSize="@dimen/body_font_size_normal"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/padding_8"
+                    android:layout_marginTop="@dimen/padding_8"
+                    android:layout_marginBottom="@dimen/padding_8"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/big_bottom_button"
+                    android:layout_marginEnd="@dimen/padding_h"
+                    android:layout_marginStart="@dimen/padding_h"
+
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="onScanBarcode"
+                    android:orientation="horizontal"
+                    android:background="@drawable/scan_bar_code">
+
+                    <com.ctek.sba.widget.font.CtekTextView
+                        android:id="@+id/btn_scan_barcode"
+                        style="@style/big_bottom_button"
+                        android:layout_width="167dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_gravity="top"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:onClick="onScanBarcode"
+                        android:text="Scan Barcode" />
+
+                    <com.ctek.sba.widget.font.CtekTextView
+                        style="@style/big_bottom_button"
+                        android:layout_width="50dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/barcode_scan"
+                        android:onClick="onScanBarcode"/>
+                </LinearLayout>
+
+                <com.ctek.sba.widget.font.CtekTextView
+                    style="@style/Ctek.TextView.ForzaBook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:onClick="onLostCode"
+                    android:paddingTop="@dimen/padding_v"
+                    android:text="@string/add_device_lost_code"
+                    android:textColor="@color/ctek_orange"
+                    android:textSize="@dimen/body_font_size_normal" />
+
+                <com.ctek.sba.widget.font.CtekTextView
+                    style="@style/Ctek.TextView.ForzaBook"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="@dimen/padding_v" />>
+            </LinearLayout>
+        </RelativeLayout><![CDATA[
+    />
+
+
+]]>
+</LinearLayout>
+

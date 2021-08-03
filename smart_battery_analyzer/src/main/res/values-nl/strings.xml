@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Battery Sense</string>
+
+    <string name="edit">Bewerken</string>
+    <string name="finish">Afsluiten</string>
+    <string name="delete">Verwijderen</string>
+
+    <string name="show_details">Bekijk details</string>
+
+    <string name="ble_not_supported">BLE is not supported on this device</string>
+    <string name="setup_new">Nieuwe zender</string>
+
+    <string name="app_version">App-versie</string>
+    <string name="soc_version">SoC-versie</string>
+    <string name="pref_view_settings">INSTELLINGEN BEKIJKEN</string>
+    <string name="pref_list_view_checkbox">Toon de apparaten in lijstweergave</string>
+    <string name="pref_notifications">MELDINGEN</string>
+    <string name="pref_notifications_data">Geef waarschuwing als er al 7 dagen geen gegevens zijn gevonden</string>
+    <string name="pref_notifications_status">Geef waarschuwing bij wijzigingen in de accustatus</string>
+    <string name="pref_background_updates">Achtergrondupdates</string>
+
+    <string name="delete_sender">Zender verwijderen</string>
+    <string name="edit_photo">Klik om de afbeelding te wijzigen</string>
+    <string name="take_from_camera">Camera</string>
+    <string name="select_from_gallery">Fotobibliotheek</string>
+    <string name="add_device_introduction_text1A">VOLGEN VAN</string>
+    <string name="add_device_introduction_text1B">UW ACCUSTATUS</string>
+    <string name="add_device_introduction_text2">DEZE HANDLEIDING HELPT U BIJ HET AANSLUITEN VAN UW ZENDER</string>
+    <string name="add_device_find_device_id_text1">ZENDER-ID VINDEN</string>
+    <string name="add_device_find_device_id_text2">De zender-ID bestaat uit een code van elf tekens. U kunt uw ID vinden op de zender en op de doos.</string>
+    <string name="add_device_connect_cables_text1">DE ZENDER MONTEREN</string>
+    <string name="add_device_connect_cables_text2A">Monteer het rode oogje aan de pluspool van de accu.</string>
+    <string name="add_device_connect_cables_text2B">Monteer het zwarte oogje aan de minpool.</string>
+    <string name="add_device_connect_cables_text2C">Maak de zender vast met behulp van de Quick Guide.</string>
+    <string name="add_device_lost_code_text1">DE ZENDER UITSCHAKELEN</string>
+    <string name="add_device_lost_code_text2A">Haal het rode oogje gedurende 30 seconden van de pluspool van de accu af.</string>
+    <string name="add_device_lost_code_text2B">Monteer het rode oogje aan de pluspool van de accu.</string>
+    <string name="sender_id_success">Dit is uw zender-ID. Maak een aantekening en bewaar deze.</string>
+    <string name="add_device_code_text1">ZENDER VERBINDEN</string>
+    <string name="add_device_code_text2">Zorg dat u zo dicht mogelijk in de buurt bent van de zender waarmee u verbinding maakt.</string>
+    <string name="add_device_code_text3">Voer uw zender-ID in</string>
+
+    <string name="add_device_lost_code">Zender-ID verloren?</string>
+    <string name="start_search">Zoek zender</string>
+    <string name="last_sync">Laatste update</string>
+    <string name="add_photo">Klik om een afbeelding toe te voegen\n(optioneel)</string>
+    <string name="searching_for_sender">Zoeken naar zender</string>
+    <string name="connecting">Verbinden met zender</string>
+    <string name="connect">Verbinden</string>
+    <string name="error_name_empty">Give your Sender a name</string>
+    <string name="ol_prefix_1">1.</string>
+    <string name="ol_prefix_2">2.</string>
+    <string name="ol_prefix_3">3.</string>
+    <string name="confirm_delete_title">Verwijderen</string>
+    <string name="confirm_delete_message">Deze zender verwijderen?</string>
+
+    <string name="battery_legend_red">Nu opladen</string>
+    <string name="battery_legend_amber">Binnenkort opladen</string>
+    <string name="battery_legend_green">Accu in orde</string>
+
+    <string name="notification_title">Melding!</string>
+    <string name="notification_message">Onbekende accustatus sinds 7 dagen</string>
+    <string name="warning_title">Waarschuwing!</string>
+    <string name="reminder_title">Herinnering!</string>
+    <string name="reminder_message">Binnenkort opladen</string>
+    <string name="updating_sender">Bijwerken</string>
+    <string name="cancel">Annuleren</string>
+    <string name="ok">OK</string>
+    <string name="detail_view">Detailweergave</string>
+    <string name="overview">Overzicht</string>
+    <string name="name_placeholder">Voer een naam in voor uw voertuig</string>
+    <string name="no_device_found_lost_code_title">Geen zender gevonden</string>
+    <string name="no_device_found_lost_code_message">Er is geen recentelijk gemonteerde zender gevonden. Als u in de buurt bent van een recentelijk gemonteerde zender, kunt u deze dingen proberen: Zorg dat er geen andere telefoon op de zender is aangesloten. Sluit alle andere apps die Bluetooth gebruiken.</string>
+    <string name="no_device_found">Geen zender gevonden</string>
+    <string name="failed_to_connect">Verbinden mislukt</string>
+    <string name="failed_to_connect_message">De verbinding is niet tot stand gekomen. Controleer de zender-ID. Als u ver bij de zender vandaan bent, zorg dan dat u dichter in de buurt komt.</string>
+    <string name="not_found_recoverable_device">Geen zender gevonden Als u in de buurt bent van uw gemonteerde zender, kunt u deze dingen proberen: Zorg dat er geen andere telefoon op de zender is aangesloten. Sluit alle andere apps die Bluetooth gebruiken.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_appears_to_be_turned_off">De Bluetooth-functie lijkt te zijn uitgeschakeld. Om te kunnen verbinden, moet u deze inschakelen.</string>
+    <string name="add_image">Afbeelding toevoegen</string>
+    <string name="choose_image_source">Kies een beeldbron</string>
+    <string name="warning_message_12h">Nu opladen</string>
+    <string name="warning_message">Nu opladen</string>
+    <string name="reminder_message_24h">Binnenkort opladen</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_voltage_checkbox">Toon temperatuur en voltage</string>
+    <string name="capacity_is_NNN">Capaciteit accu NNNAh.</string>
+    <string name="capacity_small">Klein (15Ah)</string>
+    <string name="capacity_normal">Normaal (75Ah)</string>
+    <string name="select_capacity">Selecteer capaciteit accu</string>
+    <string name="pref_select_t_unit">Temperature in</string>
+
+    <!-- CTEKUpdateService notification strings. -->
+    <string name="update_service_is_running">Update service wordt uitgevoerd</string>
+
+    <!-- Already connected. -->
+    <string name="information">Informatie</string>
+    <string name="sender_already_connected">Zender al verbonden</string>
+
+    <!-- New strings. Mar-2018. CBS-174 -->
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nee</string>
+    <string name="data_collection_header">Gegevensverzameling</string>
+    <string name="data_collection_text">Als bedrijf met een passie voor acculaden en -onderhoud, proberen we steeds een beter begrip te krijgen van de manier waarop onze producten worden gebruikt, zodat we kunnen blijven voldoen aan de behoeften van onze klanten. \n\nDaarom zouden we graag enkele anonieme gegevens willen verzamelen over uw gebruik van de CTEK Battery Sense.\n\n__LINK_POLICY__U kunt ervoor kiezen te stoppen met het delen van uw informatie door naar de instellingspagina in de Battery Sense-app te gaan.\n\n__LINK_TERMS__</string>
+    <string name="data_collection_policy">Klik hier om ons volledige Privacybeleid te lezen</string>
+    <string name="data_collection_terms">Lees onze algemene voorwaarden en keur deze goed voordat u de service gebruikt</string>
+    <string name="data_collection_checkbox">Ik heb de algemene voorwaarden gelezen en begrepen </string>
+    <string name="data_collection_question">Gaat u ermee akkoord dat wij deze gegevens verzamelen?</string>
+
+    <string name="pref_txt_data_collection">Anonieme gegevens delen met CTEK</string>
+    <string name="pref_txt_privacy_policy">Privacybeleid</string>
+    <string name="pref_txt_terms_conditions">Voorwaarden</string>
+    <string name="back">Terug</string>
+    <string name="bt_connected">Bluetooth verbonden</string>
+    <string name="bt_disconnected">Bluetooth verbroken</string>
+    <string name="changes_save_success">Veranderingen succesvol opgeslagen</string>
+    <string name="check_no_other_device_connected">Zorg dat er geen ander apparaat is aangesloten op het CTEK-apparaat</string>
+    <string name="connected_live_mode">Verbonden</string>
+    <string name="connecting_live_mode">Verbinden</string>
+    <string name="disconnected_live_mode">Losgekoppeld</string>
+    <string name="if_paired_unpair">Als het CTEK-apparaat al is gekoppeld, moet de gebruiker het ontkoppelen van de beschikbare Bluetooth-lijst</string>
+    <string name="live_mode">Live-modus</string>
+    <string name="not_connected">Niet verbonden</string>
+    <string name="properly_connected">Zorg ervoor dat uw CTEK-apparaat correct is aangesloten op de batterij</string>
+    <string name="save">Opslaan</string>
+    <string name="alert">Alarm</string>
+    <string name="conn_timeout">Verbindings tijd overschreden</string>
+    <string name="conn_sender">Verbind met zender</string>
+    <string name="be_close_connecting">Wees zo dicht mogelijk bij de zender waarmee u verbinding maakt</string>
+    <string name="btn_reconnect">Opnieuw aansluiten</string>
+
+    <string name="searching">Zoeken...</string>
+
+</resources>

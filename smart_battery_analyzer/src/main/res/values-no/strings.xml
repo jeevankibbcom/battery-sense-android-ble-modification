@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Battery Sense</string>
+
+    <string name="edit">Rediger</string>
+    <string name="finish">Fullfør</string>
+    <string name="delete">Fjern</string>
+
+    <string name="show_details">Vis detaljer</string>
+
+    <string name="ble_not_supported">BLE is not supported on this device</string>
+    <string name="setup_new">Ny sender</string>
+
+    <string name="app_version">App-versjon</string>
+    <string name="soc_version">SoC-versjon</string>
+    <string name="pref_view_settings">VIS INNSTILLINGER</string>
+    <string name="pref_list_view_checkbox">Vis enheter i listevisning</string>
+    <string name="pref_notifications">VARSLINGER</string>
+    <string name="pref_notifications_data">Varsle meg når det ikke har blitt funnet noen data på 7 dager</string>
+    <string name="pref_notifications_status">Varsle meg om batteristatusendringer</string>
+    <string name="pref_background_updates">Bakgrunnsoppdateringer</string>
+
+    <string name="delete_sender">Fjern sender</string>
+    <string name="edit_photo">Klikk for å endre bilde</string>
+    <string name="take_from_camera">Kamera</string>
+    <string name="select_from_gallery">Bildebibliotek</string>
+    <string name="add_device_introduction_text1A">HOLD KONTROLLEN</string>
+    <string name="add_device_introduction_text1B">BATTERIETS STATUS</string>
+    <string name="add_device_introduction_text2">DENNE VEILEDNINGEN VIL HJELPE DEG MED Å KOBLE TIL SENDEREN</string>
+    <string name="add_device_find_device_id_text1">FINN SENDER-ID</string>
+    <string name="add_device_find_device_id_text2">Sender-ID er en kode på elleve tegn. Du finner din ID på batterisenderen og på esken.</string>
+    <string name="add_device_connect_cables_text1">MONTER SENDEREN</string>
+    <string name="add_device_connect_cables_text2A">Monter den røde maljen til plusspolen på batteriet.</string>
+    <string name="add_device_connect_cables_text2B">Monter den svarte maljen til minuspolen på batteriet.</string>
+    <string name="add_device_connect_cables_text2C">Fest senderen i henhold til Quick Guide.</string>
+    <string name="add_device_lost_code_text1">KOBLE FRA SENDEREN</string>
+    <string name="add_device_lost_code_text2A">Koble den røde maljen fra plusspolen på batteriet i 30 sekunder.</string>
+    <string name="add_device_lost_code_text2B">Remonter den røde maljen til plusspolen på batteriet.</string>
+    <string name="sender_id_success">Dette er din sender-ID. Noter og lagre den.</string>
+    <string name="add_device_code_text1">KOBLE TIL SENDER</string>
+    <string name="add_device_code_text2">Vær så nær som mulig til senderen du kobler til.</string>
+    <string name="add_device_code_text3">Legg inn sender-ID</string>
+
+    <string name="add_device_lost_code">Mistet sender-ID?</string>
+    <string name="start_search">Start søk</string>
+    <string name="last_sync">Siste oppdatering</string>
+    <string name="searching_for_sender">Søke etter sender</string>
+    <string name="connecting">Koble til sender</string>
+    <string name="connect">Koble til</string>
+    <string name="error_name_empty">Give your Sender a name</string>
+    <string name="ol_prefix_1">1.</string>
+    <string name="ol_prefix_2">2.</string>
+    <string name="ol_prefix_3">3.</string>
+    <string name="confirm_delete_title">Fjern</string>
+    <string name="confirm_delete_message">Fjerne denne senderen?</string>
+
+    <string name="battery_legend_red">Må lådes nå</string>
+    <string name="battery_legend_amber">Må lades snart</string>
+    <string name="battery_legend_green">Batteri OK</string>
+
+    <string name="notification_title">Varsling!</string>
+    <string name="notification_message">Ukjent batteristatus i 7 dager</string>
+    <string name="warning_title">Advarsel!</string>
+    <string name="reminder_title">Påminnelse!</string>
+    <string name="reminder_message">Må lades snart</string>
+    <string name="updating_sender">Oppdaterer</string>
+    <string name="cancel">Avbryt</string>
+    <string name="ok">OK</string>
+    <string name="detail_view">Detaljevisning</string>
+    <string name="overview">Oversikt</string>
+    <string name="name_placeholder">Legg inn et navn for kjøretøyet</string>
+    <string name="no_device_found_lost_code_title">Ingen sender funnet</string>
+    <string name="no_device_found_lost_code_message">Ingen nylig montert sender ble funnet. Hvis du befinner deg i nærheten av en nylig montert sender, prøv følgende: Se til at det ikke er koblet noen annen telefon til senderen. Lukk alle andre apper som bruker Bluetooth.</string>
+    <string name="no_device_found">Ingen sender funnet</string>
+    <string name="failed_to_connect">Kunne ikke koble til</string>
+    <string name="failed_to_connect_message">Tilkoblingen sviktet. Se til at sender-ID er riktig, og hvis du befinner deg for langt bort fra senderen, prøv å flytte deg nærmere.</string>
+    <string name="not_found_recoverable_device">Ingen sender ble funnet. Hvis du befinner deg i nærheten av den montert sender, prøv følgende: Se til at det ikke er koblet noen annen telefon til senderen. Lukk alle andre apper som bruker Bluetooth.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_appears_to_be_turned_off">Bluetooth-tjenester ser ut til å være avslått. For å koble til må du slå det på.</string>
+    <string name="add_image">Legg til bilde</string>
+    <string name="choose_image_source">Velg en bildekilde</string>
+    <string name="warning_message_12h">Må lådes nå</string>
+    <string name="warning_message">Må lådes nå</string>
+    <string name="reminder_message_24h">Må lades snart</string>
+    <string name="add_photo">Klikk for å legge til bilde (frivillig)</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_voltage_checkbox">Vis spenning og temperatur</string>
+    <string name="capacity_is_NNN">Batterikapasitet NNNAh.</string>
+    <string name="capacity_small">Liten (15Ah)</string>
+    <string name="capacity_normal">Normal (75Ah)</string>
+    <string name="select_capacity">Velg batterikapasitet</string>
+    <string name="pref_select_t_unit">Temperatur i</string>
+
+    <!-- CTEKUpdateService notification strings. -->
+    <string name="update_service_is_running">Oppgradering pågår</string>
+
+    <!-- Already connected. -->
+    <string name="information">Informasjon</string>
+    <string name="sender_already_connected">Senderen er allerede tilkoblet</string>
+
+    <!-- New strings. Mar-2018. CBS-174 -->
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nei</string>
+    <string name="data_collection_header">Datasamling</string>
+    <string name="data_collection_text">Som et selskap som er lidenskapelig opptatt av batterilading og vedlikehold, er vi alltid ute etter å forstå hvordan produktene våre brukes, for å fortsette å oppfylle behovene til kundene våre. \n\nVi vil derfor hente inn anonyme data om bruken av din CTEK Battery Sense.\n\n__LINK_POLICY__Du kan velge å avslutte deling av din informasjon ved å gå til innstillingene i Battery Sense-appen.\n\n__LINK_TERMS__</string>
+    <string name="data_collection_policy">Klikk her for å se våre retningslinjer for personvern</string>
+    <string name="data_collection_terms">Vennligst les og godkjenn våre vilkår og betingelser før du bruker tjenesten</string>
+    <string name="data_collection_checkbox">Jeg har lest og forstått vilkårene </string>
+    <string name="data_collection_question">Er det greit at vi samler inn disse dataene?</string>
+
+    <string name="pref_txt_data_collection">Del anonyme data med CTEK</string>
+    <string name="pref_txt_privacy_policy">Retningslinjer for personvern</string>
+    <string name="pref_txt_terms_conditions">Vilkår og betingelser</string>
+    <string name="alert">Varsling</string>
+    <string name="back">Tilbake</string>
+    <string name="changes_save_success">Endringer lagret</string>
+    <string name="connected_live_mode">Tilkoblet</string>
+    <string name="if_paired_unpair">Hvis CTEK-enheten allerede er paret, bør brukeren koble den fra den tilgjengelige Bluetooth-listen</string>
+    <string name="live_mode">Live-modus</string>
+    <string name="not_connected">Ikke tilkoblet</string>
+    <string name="properly_connected">Forsikre deg om at CTEK-enheten er riktig tilkoblet batteriet</string>
+    <string name="save">Lagre</string>
+    <string name="connecting_live_mode">Verbinden</string>
+    <string name="conn_timeout">Tilkobling avbrutt</string>
+    <string name="disconnected_live_mode">frakoblet</string>
+    <string name="bt_connected">Bluetooth tilkoblet</string>
+    <string name="bt_disconnected">Bluetooth frakoblet</string>
+    <string name="conn_sender">koble til senderen</string>
+    <string name="be_close_connecting">Vær så nær som mulig senderen du kobler til</string>
+    <string name="check_no_other_device_connected">Forsikre deg om at ingen andre enheter er tilkoblet CTEK-enheten</string>
+    <string name="btn_reconnect">koble til igjen</string>
+
+    <string name="searching">Søker...</string>
+
+</resources>

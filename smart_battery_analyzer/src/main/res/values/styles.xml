@@ -1,0 +1,82 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Ctek.TextView" parent="android:Widget.TextView">
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Ctek.TextView.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="customfont">Forza-Book</item>
+    </style>
+
+    <style name="Ctek.TextView.LargeText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="customfont">Forza-Book</item>
+    </style>
+
+    <style name="Ctek.TextView.ForzaBook">
+        <item name="customfont">Forza-Book</item>
+    </style>
+
+    <style name="Ctek.TextView.ForzaBold">
+        <item name="customfont">Forza-Bold</item>
+    </style>
+
+    <style name="Ctek.TextView.ForzaBoldItalic">
+        <item name="customfont">Forza-BoldItalic</item>
+    </style>
+
+    <style name="Ctek.TextView.ForzaBookItalic">
+        <item name="customfont">Forza-BookItalic</item>
+    </style>
+
+    <style name="Ctek.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/page_indicator_selector</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">3.5dp</item>
+        <item name="android:layout_marginRight">3.5dp</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="Ctek.TextView.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text_background_selector</item>
+        <item name="android:minHeight">@dimen/edit_text_height</item>
+        <item name="android:textSize">@dimen/body_font_size_normal</item>
+        <item name="customfont">Forza-Book</item>
+        <item name="android:textColor">@color/text_dark_primary</item>
+        <item name="android:paddingLeft">@dimen/padding_narrow_h</item>
+        <item name="android:paddingRight">@dimen/padding_narrow_h</item>
+    </style>
+
+    <style name="big_bottom_button" parent="Ctek.TextView.ForzaBook">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@color/ctek_orange</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/header_font_size_normal</item>
+        <item name="customfont">Forza-Book</item>
+    </style>
+
+    <style name="Ctek.TextView.BatteryLegend" parent="Ctek.TextView.ForzaBook">
+        <item name="customfont">Forza-Book</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/body_font_size_normal</item>
+    </style>
+
+    <style name="Ctek.Switch" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/ctek_orange</item>
+    </style>
+
+    <style name="Ctek.SeekBar" parent="android:style/Widget.SeekBar">
+        <item name="colorAccent">@color/ctek_orange</item>
+    </style>
+
+</resources>

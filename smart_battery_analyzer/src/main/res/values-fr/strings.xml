@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Battery Sense</string>
+
+    <string name="edit">Editer</string>
+    <string name="finish">Terminer</string>
+    <string name="delete">Supprimer</string>
+
+    <string name="show_details">Voir les détails</string>
+
+    <string name="ble_not_supported">BLE is not supported on this device</string>
+    <string name="setup_new">Nouvel émetteur</string>
+
+    <string name="app_version">Version de l\&apos;appli</string>
+    <string name="soc_version">Version SoC</string>
+    <string name="pref_view_settings">PARAMÈTRES DE L\&apos;AFFICHAGE</string>
+    <string name="pref_list_view_checkbox">Afficher les appareils dans la liste</string>
+    <string name="pref_notifications">ATTENTION</string>
+    <string name="pref_notifications_data">Prévenez-moi lorsqu\&apos;aucune donnée n\&apos;a été détectée pendant 7 jours</string>
+    <string name="pref_notifications_status">Prévenez-moi lorsque l\&apos;état de la batterie change</string>
+    <string name="pref_background_updates">Mises à jour en arrière-plan</string>
+
+    <string name="delete_sender">Supprimer l\&apos;émetteur</string>
+    <string name="edit_photo">Cliquer pour changer l\&apos;image</string>
+    <string name="take_from_camera">Appareil-photo</string>
+    <string name="select_from_gallery">Banque d\&apos;images</string>
+    <string name="add_device_introduction_text1A">SUIVRE</string>
+    <string name="add_device_introduction_text1B">L\&apos;ÉTAT DE VOTRE BATTERIE</string>
+    <string name="add_device_introduction_text2">CE GUIDE VOUS AIDERA À VOUS BRANCHER À L\&apos;ÉMETTEUR</string>
+    <string name="add_device_find_device_id_text1">TROUVER L\&apos;IDENTIFIANT</string>
+    <string name="add_device_find_device_id_text2">Le code identifiant de l\&apos;émetteur se compose de 11 caractères. Vous pouvez trouver votre identifiant sur l\&apos;émetteur et sur la boîte.</string>
+    <string name="add_device_connect_cables_text1">MONTER L\&apos;ÉMETTEUR</string>
+    <string name="add_device_connect_cables_text2A">Placez la cosse rouge sur le pôle positif de la batterie.</string>
+    <string name="add_device_connect_cables_text2B">Placez la cosse noire sur le pôle négatif de la batterie.</string>
+    <string name="add_device_connect_cables_text2C">Suivez les instructions du \&apos;Quick guide\&apos; pour connecter l\&apos;émetteur.</string>
+    <string name="add_device_lost_code_text1">DÉBRANCHEZ L\&apos;ÉMETTEUR</string>
+    <string name="add_device_lost_code_text2A">Débranchez la cosse rouge du pôle positif de la batterie pendant 30 secondes.</string>
+    <string name="add_device_lost_code_text2B">Placez la cosse rouge sur le pôle positif de la batterie.</string>
+    <string name="sender_id_success">Ceci est l\&apos;identifiant de votre émetteur. Prenez-en note et enregistrez-le.</string>
+    <string name="add_device_code_text1">BRANCHER À L\&apos;ÉMETTEUR</string>
+    <string name="add_device_code_text2">Restez aussi près que possible de l\&apos;émetteur auquel vous vous connectez.</string>
+    <string name="add_device_code_text3">Entrez le code identifiant</string>
+
+    <string name="add_device_lost_code">Perdu le code identifiant ?</string>
+    <string name="start_search">Démarrer la recherche</string>
+    <string name="last_sync">Dernière mise à jour</string>
+    <string name="add_photo">Cliquer pour ajouter une image (en option)</string>
+    <string name="searching_for_sender">Recherche de l\&apos;émetteur</string>
+    <string name="connecting">Branchement à l\&apos;émetteur</string>
+    <string name="connect">Brancher</string>
+    <string name="error_name_empty">Give your Sender a name</string>
+    <string name="ol_prefix_1">1.</string>
+    <string name="ol_prefix_2">2.</string>
+    <string name="ol_prefix_3">3.</string>
+    <string name="confirm_delete_title">Supprimer</string>
+    <string name="confirm_delete_message">Supprimer cet émetteur ?</string>
+
+    <string name="battery_legend_red">Chargez la batterie</string>
+    <string name="battery_legend_amber">Chargez la batterie sous peu</string>
+    <string name="battery_legend_green">La batterie est en bonne condition</string>
+
+    <string name="notification_title">Attention !</string>
+    <string name="notification_message">Statut de la batterie inconnu depuis 7 jours</string>
+    <string name="warning_title">Attention !</string>
+    <string name="reminder_title">N\&apos;oubliez pas !</string>
+    <string name="reminder_message">Chargez la batterie sous peu</string>
+    <string name="updating_sender">Mise à jour</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="detail_view">Vue détaillée</string>
+    <string name="overview">Vue d\&apos;ensemble</string>
+    <string name="name_placeholder">Entrez un nom pour votre véhicule</string>
+    <string name="no_device_found_lost_code_title">Aucun émetteur trouvé</string>
+    <string name="no_device_found_lost_code_message">Aucun émetteur récemment installé n\&apos;a été trouvé. Si vous vous trouvez à proximité d\&apos;un émetteur récemment installé, effectuez les procédures suivantes : Vérifiez qu\&apos;aucun autre téléphone n\&apos;est connecté à cet émetteur. Fermez toutes les applications utilisant Bluetooth.</string>
+    <string name="no_device_found">Aucun émetteur trouvé</string>
+    <string name="failed_to_connect">Échec de la connexion</string>
+    <string name="failed_to_connect_message">La connexion a échoué. Vérifiez que le code identifiant de l\&apos;émetteur est correct et si vous êtes loin de celui-ci, essayez de vous rapprocher.</string>
+    <string name="not_found_recoverable_device">Aucun émetteur trouvé. Si vous vous trouvez à proximité de votre émetteur installé, effectuez les procédures suivantes : Vérifiez qu\&apos;aucun autre téléphone n\&apos;est connecté à cet émetteur. Fermez toutes les applications utilisant Bluetooth.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_appears_to_be_turned_off">Le service Bluetooth semble désactivé. Pour vous reconnecter, vous devez le réactiver.</string>
+    <string name="add_image">Ajouter une image</string>
+    <string name="choose_image_source">Choisir une source d\&apos;images</string>
+    <string name="warning_message_12h">Chargez la batterie</string>
+    <string name="warning_message">Chargez la batterie</string>
+    <string name="reminder_message_24h">Chargez la batterie sous peu</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_voltage_checkbox">Afficher température et tension</string>
+    <string name="capacity_is_NNN">Capacité de la battérie NNNAh.</string>
+    <string name="capacity_small">Petite (15Ah)</string>
+    <string name="capacity_normal">Moyenne (75Ah)</string>
+    <string name="select_capacity">Sélectionner capacité de la battérie</string>
+    <string name="pref_select_t_unit">Température en</string>
+
+    <!-- CTEKUpdateService notification strings. -->
+    <string name="update_service_is_running">Mise à jour en cours</string>
+
+    <!-- Already connected. -->
+    <string name="information">Information</string>
+    <string name="sender_already_connected">Émetteur déjà connecté</string>
+
+    <!-- New strings. Mar-2018. CBS-174 -->
+    <string name="button_yes">Oui</string>
+    <string name="button_no">Non</string>
+    <string name="data_collection_header">Collecte de données</string>
+    <string name="data_collection_text">Dans notre entreprise, nous sommes passionnés par la charge et la maintenance des batteries, c\&apos;est pourquoi nous cherchons constamment à comprendre comment nos produits sont utilisés pour continuer à répondre aux besoins de nos clients. \n\nDans ce but, nous aimerions recueillir des données anonymes concernant l\&apos;utilisation de votre CTEK Battery Sense.\n\n__LINK_POLICY__Vous pouvez choisir de ne plus partager vos informations en accédant à la page des paramètres de l\&apos;application Battery Sense.\n\n__LINK_TERMS__</string>
+    <string name="data_collection_policy">Cliquez ici pour lire notre politique de confidentialité dans son intégralité</string>
+    <string name="data_collection_terms">Veuillez lire et approuver nos termes et conditions avant d\&apos;utiliser le service</string>
+    <string name="data_collection_checkbox">J\&apos;ai lu et compris les termes et conditions</string>
+    <string name="data_collection_question">Acceptez-vous de nous laisser collecter ces données ?</string>
+
+    <string name="pref_txt_data_collection">Envoyer des données anonymes à CTEK</string>
+    <string name="pref_txt_privacy_policy">Politique de confidentialité</string>
+    <string name="pref_txt_terms_conditions">Termes et conditions</string>
+    <string name="alert">Alerte</string>
+    <string name="back">Retour</string>
+    <string name="bt_connected">Bluetooth connecté</string>
+    <string name="bt_disconnected">Bluetooth déconnecté</string>
+    <string name="btn_reconnect">Reconnecter</string>
+    <string name="changes_save_success">Changements sauvegardés avec succès</string>
+    <string name="check_no_other_device_connected">Assurez-vous qu\'aucun autre périphérique n\'est connecté au périphérique CTEK</string>
+    <string name="disconnected_live_mode">Débranché</string>
+    <string name="if_paired_unpair">Si le périphérique CTEK est déjà associé, l/\'utilisateur doit le dissocier de la liste Bluetooth disponible.</string>
+    <string name="not_connected">Pas connecté</string>
+    <string name="properly_connected">Assurez-vous que votre appareil CTEK est correctement connecté à la batterie</string>
+    <string name="save">Sauver</string>
+    <string name="connecting_live_mode">Connexion en cours</string>
+    <string name="connected_live_mode">Connecté</string>
+    <string name="live_mode">Mode instantané</string>
+    <string name="conn_timeout">Délai de connexion expiré</string>
+    <string name="conn_sender">Connecter l\'émetteur</string>
+    <string name="be_close_connecting">Soyez le plus proche possible de l\'émetteurauquel vous vous connectez</string>
+
+    <string name="searching">Recherche...</string>
+
+</resources>

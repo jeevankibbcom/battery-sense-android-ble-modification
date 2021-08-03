@@ -1,0 +1,310 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SV_prefs_scroll"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:descendantFocusability="afterDescendants"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:descendantFocusability="afterDescendants"
+    >
+
+    <include layout="@layout/action_bar_settings"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/list_divider"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_v"
+        android:paddingEnd="@dimen/padding_narrow_h"
+        android:paddingStart="@dimen/padding_narrow_h"
+        android:paddingTop="@dimen/padding_v"
+        android:showDividers="middle|end"
+        android:descendantFocusability="afterDescendants"
+        >
+
+        <com.ctek.sba.widget.font.CtekTextView
+            style="@style/Ctek.TextView.ForzaBoldItalic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/pref_view_settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_font_size_normal"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pref_list_view_checkbox"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_small"
+                />
+
+            <Switch
+                android:id="@+id/list_view_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Ctek.Switch"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_chart_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pref_new_chart_checkbox"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_small"
+                />
+
+            <Switch
+                android:id="@+id/new_chart_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Ctek.Switch"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pref_show_voltage_checkbox"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_small"
+                />
+
+            <Switch
+                android:id="@+id/show_voltage_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Ctek.Switch"
+                />
+
+        </LinearLayout>
+
+        <com.ctek.sba.widget.font.CtekTextView
+            android:id="@+id/label_celsius"
+            android:text="@string/pref_select_t_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Ctek.TextView.ForzaBook"
+            android:textSize="@dimen/body_font_size_small"
+            android:textColor="@color/white"
+            />
+        <RadioGroup
+            android:id="@+id/radio_actions"
+            android:orientation="vertical"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:padding="@dimen/padding_narrow_h"
+            >
+            <RadioButton android:id="@+id/radio_t_celsius"
+                android:text="@string/pref_show_t_in_celsius"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                style="@style/Ctek.RadioButton"
+                android:paddingLeft="@dimen/padding_8"
+                android:clickable="true"
+                android:buttonTint="@drawable/radio_button_colors"
+                android:textSize="@dimen/body_font_size_small"
+                />
+            <RadioButton android:id="@+id/radio_t_fahrengeit"
+                android:text="@string/pref_show_t_in_fahrengeit"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                style="@style/Ctek.RadioButton"
+                android:paddingLeft="@dimen/padding_8"
+                android:clickable="true"
+                android:buttonTint="@drawable/radio_button_colors"
+                android:textSize="@dimen/body_font_size_small"
+                />
+        </RadioGroup>
+
+
+        <com.ctek.sba.widget.font.CtekTextView
+            style="@style/Ctek.TextView.ForzaBoldItalic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/padding_v"
+            android:text="@string/pref_notifications"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_font_size_normal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pref_notifications_data"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_small"/>
+
+            <Switch
+                android:id="@+id/notif_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Ctek.Switch"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pref_notifications_status"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_small"/>
+
+            <Switch
+                android:id="@+id/notif_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Ctek.Switch"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pref_txt_data_collection"
+                android:textColor="@color/white"
+                android:textSize="@dimen/body_font_size_small"/>
+
+            <Switch
+                android:id="@+id/data_collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/Ctek.Switch"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/padding_v"
+            android:paddingBottom="@dimen/padding_v">
+
+            <com.ctek.sba.widget.font.CtekTextView
+                android:id="@+id/version_label"
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_version"
+                android:textSize="@dimen/body_font_size_tiny"/>
+
+            <com.ctek.sba.widget.font.CtekTextView
+                android:id="@+id/soc_version_label"
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/soc_version"
+                android:textSize="@dimen/body_font_size_tiny"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_legal_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <TextView
+                fontPath="fonts/Forza-Book.otf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View legal info"
+                android:textSize="@dimen/body_font_size_tiny"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <TextView
+                fontPath="fonts/Forza-Book.otf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_txt_privacy_policy"
+                android:textSize="@dimen/body_font_size_tiny"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/terms_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_row_height"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <TextView
+                fontPath="fonts/Forza-Book.otf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_txt_terms_conditions"
+                android:textSize="@dimen/body_font_size_tiny"
+                 />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Battery Sense</string>
+
+    <string name="edit">Edit</string>
+    <string name="finish">Finish</string>
+    <string name="delete">Remove</string>
+
+    <string name="show_details">View Detail</string>
+
+    <string name="ble_not_supported">BLE is not supported on this device</string>
+    <string name="setup_new">New sender</string>
+
+    <string name="pref_key_device_list_mode" translatable="false">device_list_mode</string>
+    <string name="pref_key_show_voltage_mode" translatable="false">show_voltage_mode</string>
+    <string name="pref_key_celsius_degrees" translatable="false">celsius_degrees</string>
+    <string name="pref_key_new_chart_mode" translatable="false">new_chart_mode</string>
+    <string name="celsius_degree_symbol" translatable="false">&#2103;</string>
+    <string name="pref_key_notif_data" translatable="false">pref_notif_data</string>
+    <string name="pref_key_notif_status" translatable="false">pref_notif_status</string>
+    <string name="pref_key_background_update" translatable="false">pref_background_update</string>
+    <string name="pref_key_data_collection" translatable="false">pref_data_collection</string>
+    <string name="link_privacy_policy" translatable="false">https://bit.ly/2H6f51w</string>
+    <string name="link_terms" translatable="false">https://bit.ly/2vlk4WG</string>
+    <string name="pref_key_temperature_started" translatable="false">pref_temperature_started</string>
+
+    <string name="app_version">App version</string>
+    <string name="soc_version">SoC version</string>
+    <string name="pref_view_settings">VIEW SETTINGS</string>
+    <string name="pref_list_view_checkbox">Show devices in list view</string>
+    <string name="pref_notifications">NOTIFICATIONS</string>
+    <string name="pref_notifications_data">Alert me when no data has been found since 7 days</string>
+    <string name="pref_notifications_status">Alert me on battery status changes</string>
+    <string name="pref_background_updates">Background updates</string>
+    <string name="unit_percent" translatable="false"> %</string>
+    <string name="delete_sender">Remove sender</string>
+    <string name="edit_photo">Click to change picture</string>
+    <string name="take_from_camera">Camera</string>
+    <string name="select_from_gallery">Image Library</string>
+    <string name="add_device_introduction_text1A">KEEP TRACK OF</string>
+    <string name="add_device_introduction_text1B">YOUR BATTERY STATUS</string>
+    <string name="add_device_introduction_text2">THIS GUIDE WILL HELP YOU TO CONNECT YOUR SENDER</string>
+    <string name="add_device_find_device_id_text1">FIND SENDER ID</string>
+    <string name="add_device_find_device_id_text2">The sender ID is an eleven character code. You can find your ID on the sender and on the box.</string>
+    <string name="add_device_connect_cables_text1">MOUNT THE SENDER</string>
+    <string name="add_device_connect_cables_text2A">Mount the red terminal to the positive pole of the battery.</string>
+    <string name="add_device_connect_cables_text2B">Mount the black terminal to the negative pole.</string>
+    <string name="add_device_connect_cables_text2C">Fasten the sender according to the Quick Guide.</string>
+    <string name="add_device_lost_code_text1">DISCONNECT THE SENDER</string>
+    <string name="add_device_lost_code_text2A">Disconnect the red terminal from the positive pole of the battery for 30 seconds.</string>
+    <string name="add_device_lost_code_text2B">Reconnect the red terminal to the positive pole of the battery.</string>
+    <string name="sender_id_success">This is your sender ID.\nMake a note and save it.</string>
+    <string name="add_device_code_text1">CONNECT SENDER</string>
+    <string name="add_device_code_text2">Be as close as possible to the sender you are connecting to.</string>
+    <string name="add_device_code_text3">Enter your sender ID</string>
+    <string name="add_device_code_prefix" translatable="false">40149</string>
+    <string name="demo_device_code" translatable="false">4014900000000000</string>
+    <string name="add_device_code_placeholder" translatable="false">-----------</string>
+    <string name="add_device_lost_code">Lost sender ID?</string>
+    <string name="start_search">Start Search</string>
+    <string name="last_sync">Last update</string>
+    <string name="add_photo">Click to add picture\n(optional)</string>
+    <string name="searching_for_sender">Searching for\nsender</string>
+    <string name="connecting">Connecting to\nsender</string>
+    <string name="connect">Connect</string>
+    <string name="error_name_empty">Give your Sender a name</string>
+    <string name="ol_prefix_1">1.</string>
+    <string name="ol_prefix_2">2.</string>
+    <string name="ol_prefix_3">3.</string>
+    <string name="confirm_delete_title">Remove</string>
+    <string name="confirm_delete_message">Remove this sender?</string>
+
+    <string name="battery_legend_red">Charge now</string>
+    <string name="battery_legend_amber">Charge soon</string>
+    <string name="battery_legend_green">Battery OK</string>
+
+    <string name="notification_title">Notification!</string>
+    <string name="notification_message">Unknown battery status since 7 days</string>
+    <string name="warning_title">Warning!</string>
+    <string name="reminder_title">Reminder!</string>
+    <string name="reminder_message">Charge soon</string>
+    <string name="updating_sender">Updating</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="detail_view">Detail View</string>
+    <string name="overview">Overview</string>
+    <string name="name_placeholder"><font size="16">Insert a name for your vehicle</font></string>
+    <string name="no_device_found_lost_code_title">No sender found</string>
+    <string name="no_device_found_lost_code_message">No recently mounted sender was found. If you are near a newly mounted sender, try these things:\nMake sure no other phone is connected to the sender.\nClose all other apps using Bluetooth.</string>
+    <string name="no_device_found">No sender found</string>
+    <string name="failed_to_connect">Failed to connect</string>
+    <string name="failed_to_connect_message">The connection failed. Make sure the sender ID is correct and if you are far away from the sender, try moving closer.</string>
+    <string name="not_found_recoverable_device">No sender was found. If you are near your mounted sender, try these things:\nMake sure no other phone is connected to the sender.\nClose all other apps using Bluetooth.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_appears_to_be_turned_off">Bluetooth services appears to be turned off. In order to connect you have to turn it on.</string>
+    <string name="add_image">Add Picture</string>
+    <string name="choose_image_source">Choose an image source</string>
+    <string name="warning_message_12h">Charge now</string>
+    <string name="warning_message">Charge now</string>
+    <string name="reminder_message_24h">Charge soon</string>
+
+    <!-- Reserved for test setting -->
+    <string name="pref_new_chart_checkbox" translatable="false">Use new chart algorithm</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_t_in_celsius" translatable="false">℃</string>
+    <string name="pref_show_t_in_fahrengeit" translatable="false">℉</string>
+
+    <!-- BatteryCapacityActivity -->
+    <!-- These 2 are not translatable. -->
+    <string name="capacity_min" translatable="false">5Ah</string>
+    <string name="capacity_max" translatable="false">200Ah</string>
+
+    <!-- Camera & ImageLibrary. -->
+    <string name="hint_permission_camera" translatable="false">This action requires permission to use Camera.</string>
+    <string name="hint_permission_images" translatable="false">This action requires permission to get images from external storage.</string>
+    <string name="hint_permission_bluetooth" translatable="false">This application requires Bluetooth and BluetoothAdmin Android permissions.</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_voltage_checkbox">Show voltage and temperature</string>
+    <string name="capacity_is_NNN">Battery Capacity NNNAh.</string>
+    <string name="capacity_small">Small (15Ah)</string>
+    <string name="capacity_normal">Normal (75Ah)</string>
+    <string name="select_capacity">Select battery capacity</string>
+    <string name="pref_select_t_unit">Temperature in</string>
+
+    <!-- CTEKUpdateService notification strings. -->
+    <string name="update_service_is_running">Update service is running</string>
+
+    <!-- For log only. -->
+    <string name="update_service_next_update" translatable="false">Next update</string>
+    <string name="update_service_next_update_is_scheduled_to" translatable="false">Next update is scheduled to</string>
+    <string name="update_service_bluetooth_off" translatable="false">Bluetooth is switched OFF</string>
+    <string name="update_service_setting_off" translatable="false">\'Background updates\' setting is OFF</string>
+    <string name="update_service_starts" translatable="false">Update starts.</string>
+
+    <!-- Already connected. -->
+    <string name="information">Information</string>
+    <string name="sender_already_connected">Sender already connected</string>
+
+    <!-- New strings. Mar-2018. CBS-174 -->
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="data_collection_header">Data collection</string>
+    <string name="data_collection_text">As a company passionate about battery charging and maintenance, we are always looking to understand how our products are being used, to continue to meet the needs of our customers.\n\nWe would therefore like to collect some anonymous data regarding the usage of your CTEK Battery Sense.\n\n__LINK_POLICY__You can choose to stop sharing your information by visiting the settings page in the Battery Sense App.\n\n__LINK_TERMS__</string>
+    <string name="data_collection_policy">Click here to see our full Privacy Policy</string>
+    <string name="data_collection_terms">Please read and approve our terms and conditions before using the service</string>
+    <string name="data_collection_checkbox"> I have read and understood the terms and conditions</string>
+    <string name="data_collection_question">Do you give your consent for us to collect your data?</string>
+
+    <string name="pref_txt_data_collection">Share anonymous data with CTEK</string>
+    <string name="pref_txt_privacy_policy">Privacy Policy</string>
+    <string name="pref_txt_terms_conditions">Terms And Conditions</string>
+    <string name="appwidget_text">Track Status</string>
+    <string name="add_widget">CTEK Battery Sense</string>
+
+    <!--New strings. Sep-2019.    -->
+    <string name="save">Save</string>
+    <string name="alert">Alert</string>
+    <string name="changes_save_success">Changes saved successfully</string>
+    <string name="connecting_live_mode">Connecting</string>
+    <string name="connected_live_mode">Connected</string>
+    <string name="live_mode">Live Mode</string>
+    <string name="conn_timeout">Connection timeout</string>
+    <string name="disconnected_live_mode">Disconnected</string>
+    <string name="not_connected">Not connected</string>
+    <string name="bt_connected">Bluetooth connected</string>
+    <string name="bt_disconnected">Bluetooth disconnected</string>
+    <string name="conn_sender">Connect sender</string>
+    <string name="be_close_connecting">Be as close as possible to the sender you are connecting</string>
+    <string name="back">Back</string>
+    <string name="if_paired_unpair">If the CTEK device is already paired then the user should unpair it from the available Bluetooth list</string>
+    <string name="check_no_other_device_connected">Make sure that no other device is connected to the CTEK device</string>
+    <string name="properly_connected">Make sure your CTEK device is properly connected to the battery</string>
+    <string name="btn_reconnect">Reconnect</string>
+    <string name="fcc_continue">Continue</string>
+    <string name="searching">Searching...</string>
+
+</resources>

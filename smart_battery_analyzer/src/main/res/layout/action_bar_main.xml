@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/action_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_default_height"
+    app:contentInsetEnd="0dp"
+    app:contentInsetStart="0dp">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+                 android:layout_height="match_parent"
+                 android:background="@color/background">
+
+        <com.ctek.sba.widget.font.CtekTextView
+            style="@style/Ctek.TextView.ForzaBook"
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:onClick="addDevice"
+            android:padding="7dp"
+            android:text="@string/setup_new"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body_font_size_small" />
+
+        <include layout="@layout/component_ctek_logo_action_bar"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:onClick="openSettings"
+            android:padding="10dp"
+            android:scaleType="center"
+            android:src="@drawable/icon_settings"/>
+    </FrameLayout>
+</android.support.v7.widget.Toolbar>

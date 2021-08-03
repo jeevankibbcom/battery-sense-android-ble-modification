@@ -1,0 +1,400 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <include layout="@layout/action_bar_device_details"/>
+
+
+        <com.ctek.sba.widget.font.CtekTextView
+            android:id="@+id/title"
+            style="@style/Ctek.TextView.ForzaBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@android:string/unknownName"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body_font_size_small"/>
+
+        <LinearLayout
+            android:id="@+id/battery_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="top"
+
+            android:layout_weight="11">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/btn_reconnect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="#00000000"
+                    android:text="@string/btn_reconnect"
+                    android:textAllCaps="false"
+                    android:textColor="#1562D6" />
+
+                <TextView
+                    android:id="@+id/connectionStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:gravity="right"
+                    android:background="@color/background"
+                    android:textColor="@color/white"
+                    android:text="Status" />
+
+
+            </LinearLayout>
+            <com.ctek.sba.widget.font.CtekTextView
+                android:id="@+id/battery_percent_label"
+                style="@style/Ctek.TextView.ForzaBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="6%"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/header_font_size_large" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <com.ctek.sba.widget.BatteryView
+                        android:id="@+id/battery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true" />
+                    <com.ctek.sba.widget.font.CtekTextView
+                        android:id="@+id/txtVoltage"
+                        style="@style/Ctek.TextView.ForzaBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.5 V"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/body_font_size_small"
+                        android:paddingTop="8dp"
+                        android:paddingLeft="16dp"
+                        android:layout_toRightOf="@id/battery"
+                        />
+                    <com.ctek.sba.widget.font.CtekTextView
+                        android:id="@+id/txtTemperature"
+                        style="@style/Ctek.TextView.ForzaBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22 C"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/body_font_size_small"
+                        android:paddingLeft="16dp"
+                        android:layout_toRightOf="@id/battery"
+                        android:layout_below="@id/txtVoltage"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/enter_live_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:indeterminate="true"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="@dimen/padding_narrow_v"
+                        android:layout_toLeftOf="@id/battery"
+                        android:visibility="gone"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/search_progress"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="@dimen/padding_narrow_v"
+                        android:indeterminate="true"
+                        android:layout_marginStart="70dp" />
+
+                    <TextView
+                        android:id="@+id/live_mode_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="6dp"
+                        android:textColor="@color/ctek_white"
+                        android:text="Timer"
+                        android:visibility="invisible"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:orientation="vertical">
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+
+                        <RelativeLayout
+                            android:id="@+id/battery_legends"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            >
+
+                            <ImageView
+                                android:id="@+id/img_batter_status"
+                                android:layout_width="@dimen/legend_dot_size"
+                                android:layout_height="@dimen/legend_dot_size"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/battery_legend_green" />
+
+                            <com.ctek.sba.widget.font.CtekTextView
+                                android:id="@+id/txt_battery_status"
+                                style="@style/Ctek.TextView.BatteryLegend"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="@dimen/padding_narrow_h"
+                                android:layout_toEndOf="@id/img_batter_status"
+                                android:text="@string/battery_legend_green" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/battery_trans">
+
+                        <Button
+                            android:id="@+id/btn_show_allstatus"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/btn_all_status_backgroud"
+                            android:text="i"
+                            android:textStyle="italic"
+                            android:textAllCaps="false"
+                            android:textColor="#1562D6" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+]
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            >
+            <RadioGroup
+                android:id="@+id/radiogrp_graph"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:saveEnabled="false">
+
+                <RadioButton android:id="@+id/radio_btn_voltage"
+                    android:text="Voltage"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    style="@style/Ctek.RadioButton"
+                    android:paddingLeft="@dimen/padding_8"
+                    android:clickable="true"
+                    android:buttonTint="@drawable/radio_button_colors"
+                    android:textSize="@dimen/body_font_size_small"
+                    android:checked="true"
+                    android:layout_gravity="center"
+                    />
+                <RadioButton android:id="@+id/radio_btn_soc"
+                    android:text="State of Charge"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    style="@style/Ctek.RadioButton"
+                    android:paddingLeft="@dimen/padding_8"
+                    android:clickable="true"
+                    android:buttonTint="@drawable/radio_button_colors"
+                    android:textSize="@dimen/body_font_size_small"
+                    android:layout_gravity="center"
+                    />
+                <RadioButton android:id="@+id/radio_btn_temperature"
+                    android:text="Temperature"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    style="@style/Ctek.RadioButton"
+                    android:paddingLeft="@dimen/padding_8"
+                    android:clickable="true"
+                    android:buttonTint="@drawable/radio_button_colors"
+                    android:textSize="@dimen/body_font_size_small"
+                    android:layout_gravity="center"
+                    />
+            </RadioGroup>
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_narrow_v"
+            android:paddingEnd="@dimen/padding_narrow_h"
+            android:paddingStart="@dimen/padding_narrow_h"
+            android:layout_weight="9">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:padding="20dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_show_all_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layout_all_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#072655"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:weightSum="3"
+            android:layout_alignParentRight="true"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iconRed"
+                    android:layout_width="@dimen/legend_dot_size"
+                    android:layout_height="@dimen/legend_dot_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/battery_legend_red" />
+
+                <com.ctek.sba.widget.font.CtekTextView
+                    style="@style/Ctek.TextView.BatteryLegend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/padding_narrow_h"
+                    android:layout_toEndOf="@id/iconRed"
+                    android:textSize="@dimen/body_font_size_small"
+                    android:text="@string/battery_legend_red" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_alignStart="@+id/layout_all_status"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iconYellow"
+                    android:layout_width="@dimen/legend_dot_size"
+                    android:layout_height="@dimen/legend_dot_size"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/battery_legend_yellow" />
+
+                <com.ctek.sba.widget.font.CtekTextView
+                    style="@style/Ctek.TextView.BatteryLegend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/padding_narrow_h"
+                    android:layout_toEndOf="@id/iconYellow"
+                    android:textSize="@dimen/body_font_size_small"
+                    android:text="@string/battery_legend_amber" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iconGreen"
+                    android:layout_width="@dimen/legend_dot_size"
+                    android:layout_height="@dimen/legend_dot_size"
+                    android:layout_centerVertical="true"
+
+                    android:src="@drawable/battery_legend_green" />
+
+                <com.ctek.sba.widget.font.CtekTextView
+                    style="@style/Ctek.TextView.BatteryLegend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/padding_narrow_h"
+                    android:layout_toEndOf="@id/iconGreen"
+                    android:textSize="@dimen/body_font_size_small"
+                    android:text="@string/battery_legend_green" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_close_all_status_popup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/battery_trans"
+            android:text="" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

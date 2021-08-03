@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Battery Sense</string>
+
+    <string name="edit">Editar</string>
+    <string name="finish">Finalizar</string>
+    <string name="delete">Quitar</string>
+
+    <string name="show_details">Ver información detallada</string>
+
+    <string name="ble_not_supported">BLE is not supported on this device</string>
+    <string name="setup_new">Transmisor nuevo</string>
+
+    <string name="app_version">Versión de aplicación</string>
+    <string name="soc_version">Versión de SoC</string>
+    <string name="pref_view_settings">VER CONFIGURACIÓN</string>
+    <string name="pref_list_view_checkbox">Mostrar dispositivos en vista de lista</string>
+    <string name="pref_notifications">NOTIFICACIONES</string>
+    <string name="pref_notifications_data">Alertarme cuando hayan transcurrido 7 días sin encontrarse datos</string>
+    <string name="pref_notifications_status">Alertarme sobre cambios de estado de la batería</string>
+    <string name="pref_background_updates">Actualizaciones de antecedentes</string>
+
+    <string name="delete_sender">Retire el transmisor</string>
+    <string name="edit_photo">Clique para cambiar la imagen</string>
+    <string name="take_from_camera">Cámara</string>
+    <string name="select_from_gallery">Biblioteca de imágenes</string>
+    <string name="add_device_introduction_text1A">SEGUIMIENTO DE</string>
+    <string name="add_device_introduction_text1B">ESTADO DE LA BATERÍA</string>
+    <string name="add_device_introduction_text2">ESTA GUÍA LE AYUDARÁ A CONECTAR EL TRANSMISOR</string>
+    <string name="add_device_find_device_id_text1">BUSCAR EL IDENTIFICADOR DEL TRANSMISOR</string>
+    <string name="add_device_find_device_id_text2">El identificador del transmisor es un código de once caracteres. El identificador está indicado en el transmisor y en la caja.</string>
+    <string name="add_device_connect_cables_text1">MONTAR DEL TRANSMISOR</string>
+    <string name="add_device_connect_cables_text2A">Monte el ojete rojo en el borne positivo de la batería.</string>
+    <string name="add_device_connect_cables_text2B">Monte el ojete negro en el borne negativo.</string>
+    <string name="add_device_connect_cables_text2C">Fije el transmisor según las instrucciones de la Quick Guide.</string>
+    <string name="add_device_lost_code_text1">DESCONECTE EL TRANSMISOR</string>
+    <string name="add_device_lost_code_text2A">Desconecte el ojete rojo del borne positivo de la batería durante 30 segundos.</string>
+    <string name="add_device_lost_code_text2B">Reconecte el ojete rojo en el borne positivo de la batería.</string>
+    <string name="sender_id_success">Éste es su identificador de transmisor. Anótelo y guárdelo.</string>
+    <string name="add_device_code_text1">CONECTAR EL TRANSMISOR</string>
+    <string name="add_device_code_text2">Manténgase lo más cerca posible del transmisor al que se está conectando.</string>
+    <string name="add_device_code_text3">Indique el identificador del transmisor</string>
+
+    <string name="add_device_lost_code">¿Ha perdido el identificador del transmisor?</string>
+    <string name="start_search">Iniciar búsqueda</string>
+    <string name="last_sync">Última actualización</string>
+    <string name="add_photo">Clique para añadir imagen\n(opcional)</string>
+    <string name="searching_for_sender">Búsqueda de transmisor</string>
+    <string name="connecting">Conexión al transmisor</string>
+    <string name="connect">Conectar</string>
+    <string name="error_name_empty">Give your Sender a name</string>
+    <string name="ol_prefix_1">1.</string>
+    <string name="ol_prefix_2">2.</string>
+    <string name="ol_prefix_3">3.</string>
+    <string name="confirm_delete_title">Quitar</string>
+    <string name="confirm_delete_message">¿Quitar este transmisor?</string>
+
+    <string name="battery_legend_red">Cargar ahora</string>
+    <string name="battery_legend_amber">Cargar pronto</string>
+    <string name="battery_legend_green">Batería bien</string>
+
+    <string name="notification_title">¡Notificación!</string>
+    <string name="notification_message">Estado desconocido de la batería desde hace 7 días</string>
+    <string name="warning_title">¡ADVERTENCIA!</string>
+    <string name="reminder_title">¡Recordatorio!</string>
+    <string name="reminder_message">Cargar pronto</string>
+    <string name="updating_sender">Actualizando</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">¡CORRECTO!</string>
+    <string name="detail_view">Vista detallada</string>
+    <string name="overview">Sinopsis</string>
+    <string name="name_placeholder">Indique un nombre para su vehículo</string>
+    <string name="no_device_found_lost_code_title">No se encontró transmisor</string>
+    <string name="no_device_found_lost_code_message">No se encontró transmisor recientemente montado. Si está cerca de un transmisor recientemente montado, pruebe lo siguiente: Compruebe que no haya otro teléfono conectado al transmisor. Cierre todas las demás aplicaciones que usan Bluetooth.</string>
+    <string name="no_device_found">No se encontró transmisor</string>
+    <string name="failed_to_connect">No se pudo conectar</string>
+    <string name="failed_to_connect_message">Falló la conexión. Compruebe que el identificador de transmisor es correcto y si está demasiado lejos del transmisor, intente acercarse.</string>
+    <string name="not_found_recoverable_device">No se encontró transmisor. Si está cerca del transmisor que ha montado, pruebe lo siguiente: Compruebe que no haya otro teléfono conectado al transmisor. Cierre todas las demás aplicaciones que usan Bluetooth.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_appears_to_be_turned_off">El servicio de Bluetooth parece estar desactivado. Tiene que activarlo para poder conectar.</string>
+    <string name="add_image">Añadir imagen</string>
+    <string name="choose_image_source">Elija una fuente de imágenes</string>
+    <string name="warning_message_12h">Cargar ahora</string>
+    <string name="warning_message">Cargar ahora</string>
+    <string name="reminder_message_24h">Cargar pronto</string>
+
+    <!-- New strings. Oct-2016 -->
+    <string name="pref_show_voltage_checkbox">Mostrar tension y temperatura</string>
+    <string name="capacity_is_NNN">Capacidad de la batería NNNAh.</string>
+    <string name="capacity_small">Pequeña (15Ah)</string>
+    <string name="capacity_normal">Normal (75Ah)</string>
+    <string name="select_capacity">Seleccionar capacidad de batería</string>
+    <string name="pref_select_t_unit">Temperatura entrada</string>
+
+    <!-- CTEKUpdateService notification strings. -->
+    <string name="update_service_is_running">Actualizando</string>
+
+    <!-- Already connected. -->
+    <string name="information">Información</string>
+    <string name="sender_already_connected">Emisor ya conectado</string>
+
+    <!-- New strings. Mar-2018. CBS-174 -->
+    <string name="button_yes">Sí</string>
+    <string name="button_no">No</string>
+    <string name="data_collection_header">Recopilación de datos</string>
+    <string name="data_collection_text">Como empresa apasionada en el mantenimiento y la carga de baterías, intentamos continuamente comprender cómo se utilizan nuestros productos para seguir satisfaciendo las necesidades de nuestros clientes.\n\nPor lo tanto, nos gustaría recopilar algunos datos anónimos relacionados con el uso de su CTEK Battery Sense.\n\n__LINK_POLICY__Tiene la opción de dejar de compartir su información, solo tiene que entrar en la página de configuración de la app Battery Sense.\n\n__LINK_TERMS__</string>
+    <string name="data_collection_policy">Haga clic aquí para ver nuestra política de privacidad al completo</string>
+    <string name="data_collection_terms">Lea y apruebe nuestros términos y condiciones antes de utilizar el servicio</string>
+    <string name="data_collection_checkbox">He leído y entiendo los términos y condiciones</string>
+    <string name="data_collection_question">¿Está de acuerdo con que recopilemos estos datos?</string>
+
+    <string name="pref_txt_data_collection">Compartir datos anónimos con CTEK</string>
+    <string name="pref_txt_privacy_policy">Política de privacidad</string>
+    <string name="pref_txt_terms_conditions">Términos y Condiciones</string>
+    <string name="alert">Alerta</string>
+    <string name="back">atrás</string>
+    <string name="bt_disconnected">Bluetooth desconectado</string>
+    <string name="bt_connected">Bluetooth conectado</string>
+    <string name="btn_reconnect">Volver a conectar</string>
+    <string name="changes_save_success">Los cambios se guardaron exitosamente</string>
+    <string name="check_no_other_device_connected">Asegúrese de que ningún otro dispositivo esté conectado al dispositivo CTEK</string>
+    <string name="conn_timeout">El tiempo de conexión expiro</string>
+    <string name="connected_live_mode">Conectado</string>
+    <string name="connecting_live_mode">Conectando</string>
+    <string name="disconnected_live_mode">Desconectado</string>
+    <string name="if_paired_unpair">Si el dispositivo CTEK ya está emparejado, el usuario debe desvincularlo de la lista Bluetooth disponible</string>
+    <string name="live_mode">Modo en vivo</string>
+    <string name="not_connected">No conectado</string>
+    <string name="properly_connected">Asegúrese de que su dispositivo CTEK esté conectado correctamente a la batería</string>
+    <string name="save">Guardar</string>
+    <string name="conn_sender">Conectar dispositivo</string>
+    <string name="be_close_connecting">Esté lo más cerca posible del dispositivo que está conectando</string>
+
+    <string name="searching">Buscando...</string>
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_narrow_h"
+    android:background="@drawable/background"
+    >
+
+    <include layout="@layout/action_bar_settings"/>
+
+    <com.ctek.sba.widget.font.CtekTextView
+        android:id="@+id/label_battery_capacity"
+        android:text="@string/select_capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Ctek.TextView.ForzaBook"
+        android:textSize="@dimen/body_font_size_normal"
+        android:textColor="@color/white"
+        android:layout_below="@id/action_bar"
+        />
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@id/label_battery_capacity"
+        style="@style/Ctek.RadioButton"
+        >
+        <RadioButton android:id="@+id/radio_small"
+            android:text="@string/capacity_small"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            style="@style/Ctek.RadioButton"
+            android:textSize="@dimen/body_font_size_small"
+            android:clickable="true"
+            android:paddingLeft="@dimen/padding_8"
+            android:buttonTint="@color/ctek_orange" />
+        <RadioButton android:id="@+id/radio_normal"
+            android:text="@string/capacity_normal"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            style="@style/Ctek.RadioButton"
+            android:textSize="@dimen/body_font_size_small"
+            android:clickable="true"
+            android:paddingLeft="@dimen/padding_8"
+            android:buttonTint="@color/ctek_orange"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtCapacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Ctek.TextView.LargeText"
+        android:text="75 Ah"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/radio_group"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/ctek_orange"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:minHeight="4dip"
+        android:maxHeight="4dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/txtCapacity"
+        android:theme="@style/Ctek.SeekBar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Ctek.TextView.Title"
+        android:text="@string/capacity_min"
+        android:id="@+id/txtLimitMin"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/seekBar"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/ctek_orange"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Ctek.TextView.Title"
+        android:text="@string/capacity_max"
+        android:id="@+id/txtLimitMax"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/seekBar"
+        android:textColor="@color/ctek_orange"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.ctek.sba.widget.font.CtekTextView
+            android:id="@+id/save_battery_capacity"
+            style="@style/big_bottom_button"
+            android:onClick="saveBatteryCapacity"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="padding_narrow_v">20dp</dimen>
+    <dimen name="padding_v">40dp</dimen>
+    <dimen name="padding_narrow_h">22dp</dimen>
+    <dimen name="padding_h">60dp</dimen>
+</resources>

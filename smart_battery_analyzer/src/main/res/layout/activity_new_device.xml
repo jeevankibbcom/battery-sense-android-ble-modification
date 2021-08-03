@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:animateLayoutChanges="true"
+              android:background="@drawable/background"
+              android:orientation="vertical"
+              tools:context="com.ctek.sba.ui.DeviceListActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/pager_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.ctek.sba.widget.DeactivateableViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <RadioGroup
+                android:id="@+id/onboarding_page_indicator_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_narrow_v"
+                android:paddingTop="@dimen/padding_v"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lost_sender_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <include layout="@layout/fragment_add_device_lost_sender_id"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/connect_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="60dp">
+            <com.ctek.sba.widget.font.CtekTextView
+                android:text="@string/connecting"
+                style="@style/Ctek.TextView.ForzaBook"
+                android:textSize="@dimen/header_font_size_large"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/bonding_progress_label"/>
+
+            <ProgressBar
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

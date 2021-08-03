@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/component_ctek_logo" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_h"
+        android:paddingEnd="@dimen/padding_h"
+        android:orientation="vertical"
+        android:gravity="top">
+        <com.ctek.sba.widget.font.CtekTextView
+            android:text="@string/add_device_introduction_text1A"
+            style="@style/Ctek.TextView.ForzaBookItalic"
+            android:textSize="@dimen/header_font_size_normal"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:textColor="@color/white"/>
+
+        <include layout="@layout/component_top_line" />
+
+        <com.ctek.sba.widget.font.CtekTextView
+            android:text="@string/add_device_introduction_text1B"
+            style="@style/Ctek.TextView.ForzaBookItalic"
+            android:textSize="@dimen/header_font_size_normal"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <com.ctek.sba.widget.font.CtekTextView
+        android:text="@string/add_device_introduction_text2"
+        style="@style/Ctek.TextView.ForzaBookItalic"
+        android:textSize="@dimen/body_font_size_large"
+        android:textColor="@color/white"
+        android:gravity="top"
+        android:padding="@dimen/padding_h"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.ctek.sba.widget.font.CtekTextView
+        android:id="@+id/tv_scan_devices"
+        android:onClick="onLostCode"
+        style="@style/Ctek.TextView.ForzaBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Scan for devices?"
+        android:textColor="@color/ctek_orange"
+        android:textSize="@dimen/body_font_size_normal"/>
+
+</LinearLayout>
